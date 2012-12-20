@@ -1,0 +1,98 @@
+# The start symbol is START.
+
+# These two rules are required; choose their weights carefully!
+0	START	S1
+99	START	S2
+
+#(S1) Sentences
+7	S1	S
+4	S1	SBARQ
+19	S1	SQ
+
+#(S) Declarative sentence
+5	S	VP
+2	S	S VP
+3	S	VBP NP VP
+6	S	NP VP
+2	S	SBAR , NP VP
+
+2	S	VP EOFS
+1	S	S VP EOFS
+2	S	VBP NP VP EOFS
+1	S	NP VP EOFS
+1	S	SBAR , NP VP EOFS
+
+#(SBARQ) Direct question introduced by a wh-word or a wh-phrase.
+3	SBARQ	WHNP SQ EOFS
+2	SBARQ	WHADVP SQ EOFS
+
+#(SBAR) - Clause introduced by a (possibly empty) subordinating conjunction.
+2	SBAR	WHADVP SBAR
+4	SBAR	WHNP S
+2	SBAR	IN S
+3	SBAR	S
+
+#(VP) Verb phrase
+7	VP	VB
+2	VP	VB ADVP
+2	VP	VB ADVP SBAR
+4	VP	VB S
+2	VP	VB NP
+2	VP	VBP RB VP
+1	VP	VB PP
+6	VP	VB VP
+5	VP	VBG PP
+2	VP	VBG NP PP
+3	VP	VBN
+2	VP	VBN NP
+3	VP	VBN VP
+7	VP	VBN PP
+2	VP	VBP PP
+1	VP	VBP SBAR
+6	VP	VBZ NP
+2	VP	VBZ JJ
+7	VP	VBZ
+6	VP	MD VP
+2	VP	VP CC VP
+2	VP	VP CC ADVP VP
+
+#(NP) Noun phrase
+2	NP	NP , NP ,
+2	NP	NP , NP
+2	NP	CC NNP CC NNP
+4	NP	CD NNS
+11	NP	DT NN
+4	NP	DT NNP
+4	NP	DT JJ NN
+1	NP	JJ NNS
+1	NP	NN
+1	NP	NN PP
+22	NP	NNP
+2	NP	NNP NN
+2	NP	NNP CC NNP
+2	NP	NNS
+3	NP	NP PP
+3	NP	NP SBAR
+8	NP	PRP
+3	NP	PRP$ NN
+
+#(PP) Preposition phrase
+12	PP	IN NP
+5	PP	TO NP
+
+#(ADJP) Adjective phrase
+1	ADJP	JJ
+
+#(ADVP) Adverb phrase
+4	ADVP	RB
+
+#(WHNP) Wh-pronoun phrase
+6	WHNP	WP
+
+#(WHADVP) Wh-adverb Phrase. 
+3	WHADVP	WRB
+
+#(SQ) Singular question
+4	SQ	VBZ NP VP
+1	SQ	VBZ NP VP EOFS
+19	SQ	NP VP EOFS

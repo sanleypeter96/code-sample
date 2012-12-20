@@ -1,0 +1,10 @@
+# The start symbol is START.
+
+# These two rules are required; choose their weights carefully!
+99	START	S1
+1	START	S2
+
+#(S1) Sentences
+40	S1	Words EOFS
+20	Words	Words WORD
+1	Words	WORD

@@ -1,0 +1,332 @@
+# This is a hand-generated set of preterminal rules.
+# It specifies a simple tag set which will be handled by the S2
+# grammar and which can (though doesn't necessarily need to be)
+# handled by the S1 grammar.
+#
+# The weights given here may be changed, but no new vocabulary
+# items are to be added.
+
+# Miscellaneous items that don't fit into any of our simple tags are
+# given to Misc.  You will want to develop your own tags for these!
+
+# Singular and mass nouns.  Notice that only the
+# ones that start with consonants get our Noun tag.
+3	NN	castle
+5	NN	king
+1	NN	defeater
+1	NN	sovereign
+1	NN	servant
+1	NN	corner
+1	NN	land
+1	NN	quest
+1	NN	chalice
+1	NN	master
+1	NN	horse
+1	NN	fruit
+1	NN	swallow
+1	NN	sun
+1	NN	winter
+1	NN	coconut
+1	NN	pound
+1	NN	husk
+1	NN	home
+1	NN	weight
+1	NN	story
+1	NN	ride
+
+# Determiners.
+4	DT	a
+1	DT	another
+1	DT	any
+1	DT	each
+1	DT	every
+1	DT	no
+3	DT	that
+10	DT	the
+1	DT	this
+1	DT	either
+
+# Prepositions.
+1	IN	above
+1	IN	across
+1	IN	at
+1	IN	below
+2	IN	by
+1	IN	for
+1	IN	from
+1	IN	into
+1	IN	near
+1	IN	of
+1	IN	on
+1	IN	over
+1	IN	through
+2	IN	with
+
+# Proper nouns.  Note that our Proper tag is just for people.
+12	NNP	Arthur
+4	NNP	Guinevere
+2	NNP	Sir Lancelot
+2	NNP	Sir Bedevere
+2	NNP	Zoot
+1	NNP	Dingo
+4	NNP	Patsy
+1	NNP	Uther Pendragon
+
+# Verbs (third person singular present).
+# Note that only transitive verbs get our VerbT tag,
+# and some of those could also function as intransitives!
+1	VBZ	has
+1	VBZ	covers
+4	VBZ	is
+2	VBZ	drinks
+1	VBZ	carries
+1	VBZ	rides
+4	VBZ	does
+
+# End-of-sentence.
+1	EOFS	!
+1	EOFS	.
+1	EOFS	?
+
+# Pauses.
+1	,	,
+1	,	...
+1	,	--
+1	,	;
+1	,	:
+
+# Coordinating conjunctions.
+2	CC	and
+1	CC	but
+1	CC	or
+1	CC	either
+1	CC	nor
+1	CC	neither
+1	CC	so
+
+# Numbers.
+1	CD	eight
+1	CD	five
+1	CD	one
+1	CD	5.5
+1	CD	sixty
+1	CD	5,000
+
+# Expletive.
+1	EXP	there
+
+# Subordinating conjunctions.
+1	SUB	that
+1	SUB	so
+1	SUB	while
+1	SUB	because
+1	SUB	if
+
+# Modals.
+1	MD	can
+1	MD	could
+1	MD	may
+2	MD	might
+1	MD	must
+1	MD	ought
+1	MD	shall
+1	MD	should
+3	MD	will
+1	MD	would
+
+
+# Adjectives.
+1	JJ	bloody
+1	JJ	weary
+1	JJ	unable
+1	JJ	trusty
+1	JJ	further
+1	JJ	sacred
+1	JJ	tropical
+1	JJ	indigenous
+1	JJ	temperate
+1	JJ	hot
+1	JJ	lucky
+1	JJ	simple
+1	JJ	tiny
+1	JJ	hard	
+1	JJ	sensational
+1	JJ	comparable
+1	JJ	angolian
+1	JJ	yellow
+1	JJ	plodding
+
+# Comparative adjectives.
+1	COMP	bloodier
+1	COMP	wearier
+1	COMP	trustier
+1	COMP	hotter
+1	COMP	simpler
+1	COMP	tinier
+1	COMP	harder
+
+# Superlative adjectives.
+1	SUPER	bloodiest
+1	SUPER	weariest
+1	SUPER	trustiest
+1	SUPER	hottest
+1	SUPER	simplest
+1	SUPER	tiniest
+1	SUPER	hardest
+
+# Plural nouns.
+1	NNS	coconuts
+1	NNS	halves
+1	NNS	snows
+1	NNS	mountains
+1	NNS	areas
+1	NNS	strangers
+1	NNS	inches
+1	NNS	snakes
+1	NNS	ants
+1	NNS	nights
+
+# More proper nouns, not people.
+3	NNPNOTPPL	Camelot
+1	NNPNOTPPL	England
+1	NNPNOTPPL	Holy Grail
+1	NNPNOTPPL	Round Table
+
+# Plural proper nouns.
+1	PPRP	Britons
+1	PPRP	Saxons
+
+# Personal pronouns.
+1	PRP	he
+1	PRP	her
+1	PRP	him
+2	PRP	it
+1	PRP	one
+1	PRP	she
+1	PRP	them
+5	PRP	they
+
+
+# Possessive personal pronouns
+1	PRP$	her
+2	PRP$	his
+1	PRP$	its
+1	PRP$	their
+
+# Adverbs.
+1	RB	again
+1	RB	already
+1	RB	currently
+1	RB	frequently
+1	RB	precisely
+1	RB	south
+1	RB	successfully
+1	RB	unfortunately
+1	RB	Patsy
+
+# 'do'/'does'
+2	VBP	do
+4	VBP	does
+3	VBP	are
+
+# 'to'
+4	TO	to
+
+# 'not'
+1	NOT	not
+
+# Verbs (base form).
+4	VB	have
+3	VB	speak
+1	VB	cover
+2	VB	be
+2	VB	ride
+1	VB	drink
+1	VB	grow
+1	VB	carry
+1	VB	suggest
+2	VB	migrate
+1	VB	know
+
+# Verbs (past tense).
+1	VBD	had
+1	VBD	spoke
+1	VBD	covered
+2	VBD	was
+1	VBD	were
+1	VBD	rode
+2	VBD	drank
+1	VBD	grew
+2	VBD	carried
+1	VBD	suggested
+1	VBD	migrated
+1	VBD	knew
+
+# Verbs (present participles).
+1	VBG	having
+1	VBG	speaking
+1	VBG	covering
+1	VBG	being
+3	VBG	riding
+1	VBG	drinking
+1	VBG	growing
+1	VBG	carrying
+1	VBG	suggesting
+1	VBG	migrating
+1	VBG	knowing
+
+# Verbs (past participle).
+1	VBN	had
+1	VBN	spoken
+1	VBN	covered
+2	VBN	been
+1	VBN	ridden
+1	VBN	drunk
+1	VBN	grown
+1	VBN	carried
+1	VBN	suggested
+1	VBN	migrated
+1	VBN	known
+
+# More third person singular verbs.
+1	VBZTHIRD	speaks
+1	VBZTHIRD	grows
+1	VBZTHIRD	goes
+1	VBZTHIRD	migrates
+1	VBZTHIRD	suggests
+4	VBZTHIRD	knows
+
+# Verbs (present, plural, third person).
+4	VBZPLURALTHIRDPERSON	have
+1	VBZPLURALTHIRDPERSON	speak
+1	VBZPLURALTHIRDPERSON	cover
+3	VBZPLURALTHIRDPERSON	are
+1	VBZPLURALTHIRDPERSON	ride
+1	VBZPLURALTHIRDPERSON	drink
+1	VBZPLURALTHIRDPERSON	grow
+1	VBZPLURALTHIRDPERSON	carry
+1	VBZPLURALTHIRDPERSON	suggest
+1	VBZPLURALTHIRDPERSON	migrate
+1	VBZPLURALTHIRDPERSON	know
+
+# Wh-determiners.
+3	WPDT	that
+2	WPDT	what
+1	WPDT	which
+
+# Wh-pronouns.
+2	WP	what
+2	WP	who
+
+# Wh possessive pronoun.
+1	PRP$	whose
+
+# Wh-adverbs
+1	WRB	how
+1	WRB	when
+1	WRB	where
+1	WRB	why
+
+
+# Possessive marker.
+1	POSSESSIVE	's

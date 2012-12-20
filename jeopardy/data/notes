@@ -1,0 +1,110 @@
+.*Infobox\.*name\s+=\s+(.*).*spouse\s+=\s+\{\{\S*\[\[(.*)\S*\]\].*\}\}
+.*Infobox[.\n\r]*name\s+=\s+(.*).*spouse\s+=\s+\{\{\S*\[\[(.*)\S*\]\].*\}\}
+*.*spouse\s+=\s+\{\{\S*\[\[(.*)\S*\]\].*\}\}
+.*Infobox[\s\S]*\|name\s+=\s+(.*)[\s\S]*\|spouse\s+=\s+\{\{\S*\[\[(.*)\S*\]\].*\}\}
+\&quot;(.*?)\&quot; --non greedy approach
+
+
+name: Andrew Johnson, spouse: [[Eliza McCardle Johnson]]
+name:  Edgar Allan Poe, spouse:  [[Virginia Eliza Clemm Poe]]
+name:  Desi Arnaz, spouse:  [[Lucille Ball]] (1940 – 1960)&lt;br/&gt;Edith Mack Hirsch (1963 – 1985; her death)
+name: Elvis Presley}}, spouse:  [[Elizabeth Hadley Richardson]] (1921-1927) &lt;br /&gt; [[Pauline Pfeiffer]] (1927-1940) &lt;br /&gt; [[Martha Gellhorn]] (1940-1945) &lt;br /&gt; [[Mary Welsh Hemingway]] (1946-1961)
+name: Benjamin Franklin, spouse: [[Deborah Read]]
+name:  Bill Oddie, spouse:  Jean Hart (divorced)&lt;br /&gt;Laura Beaumont
+name:  Abraham Lincoln, spouse:  [[Mary Todd Lincoln]]
+name:  Billy Crystal, spouse:  Janice Goldfinger (1970-)
+name:  William Jefferson Clinton, spouse:  [[Hillary Rodham Clinton]]
+name: Bill Clinton}}, spouse: [[Mamie Eisenhower|Mamie Doud Eisenhower]]
+name:  General Colin L. Powell, spouse:  [[Alma Vivian Johnson Powell]]
+name: Cary Elwes}} , spouse:  {{nowrap|[[Maria Shriver]] (1986&amp;ndash;present)}}
+name:  Arnold Schwarzenegger, spouse:  Susann Margreth  Branco (February 6, 1988 &amp;ndash; December 1994 annulled 1997)&lt;br&gt;Elizabeth  Watson (January 10, 1998 &amp;ndash;)&lt;br&gt;Kimberly Bell
+
+
+
+
+{Janice Goldfinger=[Billy Crystal], 
+Hillary Rodham Clinton=[William Jefferson Clinton], 
+Alma Vivian Johnson Powell=[General Colin L. Powell], 
+Lucille Ball=[Desi Arnaz], 
+Bill Oddie=[Jean Hart, Laura Beaumont], 
+Bill Clinton=[Mamie Eisenhower, Mamie Doud Eisenhower], 
+Elvis Presley=[Elizabeth Hadley Richardson, Pauline Pfeiffer, Martha Gellhorn, Mary Welsh Hemingway], 
+Mamie Eisenhower=[Bill Clinton], Edith Mack Hirsch=[Desi Arnaz], 
+Arnold Schwarzenegger=[Susann Margreth Branco, Elizabeth Watson, Kimberly Bell], 
+Kimberly Bell=[Arnold Schwarzenegger], Edgar Allan Poe=[Virginia Eliza Clemm Poe], 
+Laura Beaumont=[Bill Oddie], 
+Elizabeth Hadley Richardson=[Elvis Presley], 
+Martha Gellhorn=[Elvis Presley], Mary Welsh Hemingway=[Elvis Presley], 
+William Jefferson Clinton=[Hillary Rodham Clinton], 
+Cary Elwes=[Maria Shriver], 
+Abraham Lincoln=[Mary Todd Lincoln], 
+Billy Crystal=[Janice Goldfinger], 
+Mamie Doud Eisenhower=[Bill Clinton], 
+Mary Todd Lincoln=[Abraham Lincoln], 
+Maria Shriver=[Cary Elwes], 
+Susann Margreth Branco=[Arnold Schwarzenegger], 
+Pauline Pfeiffer=[Elvis Presley], 
+Desi Arnaz=[Lucille Ball, Edith Mack Hirsch], 
+Andrew Johnson=[Eliza McCardle Johnson], 
+Jean Hart=[Bill Oddie], General Colin L. 
+Powell=[Alma Vivian Johnson Powell], 
+Elizabeth Watson=[Arnold Schwarzenegger], 
+Benjamin Franklin=[Deborah Read], 
+Deborah Read=[Benjamin Franklin], Virginia Eliza Clemm Poe=[Edgar Allan Poe], 
+Eliza McCardle Johnson=[Andrew Johnson]}
+
+
+
+name: Barry Bonds	[Susann Margreth Branco, Elizabeth Watson, Kimberly Bell, ]
+name: Ernest Hemingway	[Elizabeth Hadley Richardson, Pauline Pfeiffer, Martha Gellhorn, Mary Welsh Hemingway, ]
+name: Hillary Rodham Clinton	[Bill Clinton, ]
+name: Janice Goldfinger	[Billy Crystal, ]
+name: Alma Vivian Johnson Powell	[Colin Powell, ]
+name: Lucille Ball	[Desi Arnaz, ]
+name: Bill Oddie	[Jean Hart, Laura Beaumont, ]
+name: Inge Morath	[Arthur Miller, ]
+name: Bill Clinton	[Hillary Rodham Clinton, ]
+name: Marie of Hesse and by Rhine	[Alexander II of Russia, ]
+name: Colin Powell	[Alma Vivian Johnson Powell, ]
+name: Alexander II of Russia	[Marie of Hesse and by Rhine, ]
+name: Dwight D. Eisenhower	[Mamie Eisenhower, Mamie Doud Eisenhower, ]
+name: Boris Yeltsin	[Naina Yeltsina, ]
+name: Mamie Eisenhower	[Dwight D. Eisenhower, ]
+name: Maria of Castile	[Alfonso V of Aragon, ]
+name: Arthur Miller	[Mary Slattery, Marilyn Monroe, Inge Morath, ]
+name: Edith Mack Hirsch	[Desi Arnaz, ]
+name: Arnold Schwarzenegger	[Maria Shriver, ]
+name: Kimberly Bell	[Barry Bonds, ]
+name: Edgar Allan Poe	[Virginia Eliza Clemm Poe, ]
+name: Laura Beaumont	[Bill Oddie, ]
+name: Elizabeth Hadley Richardson	[Ernest Hemingway, ]
+name: Martha Gellhorn	[Ernest Hemingway, ]
+name: Mary Welsh Hemingway	[Ernest Hemingway, ]
+name: Alfonso V of Aragon	[Maria of Castile, ]
+name: Billy Crystal	[Janice Goldfinger, ]
+name: Abraham Lincoln	[Mary Todd Lincoln, ]
+name: Mamie Doud Eisenhower	[Dwight D. Eisenhower, ]
+name: Naina Yeltsina	[Boris Yeltsin, ]
+name: Mary Todd Lincoln	[Abraham Lincoln, ]
+name: Maria Shriver	[Arnold Schwarzenegger, ]
+name: Marilyn Monroe	[Arthur Miller, ]
+name: Bill Gates	[Melinda Gates, ]
+name: Susann Margreth Branco	[Barry Bonds, ]
+name: Christopher Columbus	[Filipa Moniz, ]
+name: Desi Arnaz	[Lucille Ball, Edith Mack Hirsch, ]
+name: Andrew Johnson	[Eliza McCardle Johnson, ]
+name: Pauline Pfeiffer	[Ernest Hemingway, ]
+name: Melinda Gates	[Bill Gates, ]
+name: Filipa Moniz	[Christopher Columbus, ]
+name: Jean Hart	[Bill Oddie, ]
+name: Elizabeth Watson	[Barry Bonds, ]
+name: Mary Slattery	[Arthur Miller, ]
+name: Benjamin Franklin	[Deborah Read, ]
+name: Deborah Read	[Benjamin Franklin, ]
+name: Virginia Eliza Clemm Poe	[Edgar Allan Poe, ]
+name: Eliza McCardle Johnson	[Andrew Johnson, ]
+Arnold Schwarzenegger
+Billy Crystal
+Colin Powell
+Abraham Lincoln
+Barry Bonds

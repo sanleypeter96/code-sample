@@ -1,0 +1,332 @@
+# This is a hand-generated set of preterminal rules.
+# It specifies a simple tag set which will be handled by the S2
+# grammar and which can (though doesn't necessarily need to be)
+# handled by the S1 grammar.
+#
+# The weights given here may be changed, but no new vocabulary
+# items are to be added.
+
+# Miscellaneous items that don't fit into any of our simple tags are
+# given to Misc.  You will want to develop your own tags for these!
+
+# Singular and mass nouns.  Notice that only the
+# ones that start with consonants get our Noun tag.
+3	WORD	castle
+5	WORD	king
+1	WORD	defeater
+1	WORD	sovereign
+1	WORD	servant
+1	WORD	corner
+1	WORD	land
+1	WORD	quest
+1	WORD	chalice
+1	WORD	master
+1	WORD	horse
+1	WORD	fruit
+1	WORD	swallow
+1	WORD	sun
+1	WORD	winter
+1	WORD	coconut
+1	WORD	pound
+1	WORD	husk
+1	WORD	home
+1	WORD	weight
+1	WORD	story
+1	WORD	ride
+
+# Determiners.
+4	WORD	a
+1	WORD	another
+1	WORD	any
+1	WORD	each
+1	WORD	every
+1	WORD	no
+3	WORD	that
+20	WORD	the
+1	WORD	this
+1	WORD	either
+
+# Prepositions.
+1	WORD	above
+1	WORD	across
+1	WORD	at
+1	WORD	below
+2	WORD	by
+1	WORD	for
+1	WORD	from
+1	WORD	into
+1	WORD	near
+1	WORD	of
+1	WORD	on
+1	WORD	over
+1	WORD	through
+2	WORD	with
+
+# Proper nouns.  Note that our Proper tag is just for people.
+7	WORD	Arthur
+2	WORD	Guinevere
+2	WORD	Sir Lancelot
+2	WORD	Sir Bedevere
+2	WORD	Zoot
+1	WORD	Dingo
+4	WORD	Patsy
+1	WORD	Uther Pendragon
+
+# Verbs (third person singular present).
+# Note that only transitive verbs get our VerbT tag,
+# and some of those could also function as intransitives!
+1	WORD	has
+1	WORD	covers
+4	WORD	is
+2	WORD	drinks
+1	WORD	carries
+1	WORD	rides
+4	WORD	does
+
+# End-of-sentence.
+1	EOFS	!
+1	EOFS	.
+1	EOFS	?
+
+# Pauses.
+1	WORD	,
+1	WORD	...
+1	WORD	--
+1	WORD	;
+1	WORD	:
+
+# Coordinating conjunctions.
+2	WORD	and
+1	WORD	but
+1	WORD	or
+1	WORD	either
+1	WORD	nor
+1	WORD	neither
+1	WORD	so
+
+# Numbers.
+1	WORD	eight
+1	WORD	five
+1	WORD	one
+1	WORD	5.5
+1	WORD	sixty
+1	WORD	5,000
+
+# Expletive.
+1	WORD	there
+
+# Subordinating conjunctions.
+1	WORD	that
+1	WORD	so
+1	WORD	while
+1	WORD	because
+1	WORD	if
+
+# Modals.
+1	WORD	can
+1	WORD	could
+1	WORD	may
+2	WORD	might
+1	WORD	must
+1	WORD	ought
+1	WORD	shall
+1	WORD	should
+3	WORD	will
+1	WORD	would
+
+
+# Adjectives.
+1	WORD	bloody
+1	WORD	weary
+1	WORD	unable
+1	WORD	trusty
+1	WORD	further
+1	WORD	sacred
+1	WORD	tropical
+1	WORD	indigenous
+1	WORD	temperate
+1	WORD	hot
+1	WORD	lucky
+1	WORD	simple
+1	WORD	tiny
+1	WORD	hard	
+1	WORD	sensational
+1	WORD	comparable
+1	WORD	angolian
+1	WORD	yellow
+1	WORD	plodding
+
+# Comparative adjectives.
+1	WORD	bloodier
+1	WORD	wearier
+1	WORD	trustier
+1	WORD	hotter
+1	WORD	simpler
+1	WORD	tinier
+1	WORD	harder
+
+# Superlative adjectives.
+1	WORD	bloodiest
+1	WORD	weariest
+1	WORD	trustiest
+1	WORD	hottest
+1	WORD	simplest
+1	WORD	tiniest
+1	WORD	hardest
+
+# Plural nouns.
+1	WORD	coconuts
+1	WORD	halves
+1	WORD	snows
+1	WORD	mountains
+1	WORD	areas
+1	WORD	strangers
+1	WORD	inches
+1	WORD	snakes
+1	WORD	ants
+1	WORD	nights
+
+# More proper nouns, not people.
+3	WORD	Camelot
+1	WORD	England
+1	WORD	Holy Grail
+1	WORD	Round Table
+
+# Plural proper nouns.
+1	WORD	Britons
+1	WORD	Saxons
+
+# Personal pronouns.
+1	WORD	he
+1	WORD	her
+1	WORD	him
+2	WORD	it
+1	WORD	one
+1	WORD	she
+1	WORD	them
+5	WORD	they
+
+
+# Possessive personal pronouns
+1	WORD	her
+2	WORD	his
+1	WORD	its
+1	WORD	their
+
+# Adverbs.
+1	WORD	again
+1	WORD	already
+1	WORD	currently
+1	WORD	frequently
+1	WORD	precisely
+1	WORD	south
+1	WORD	successfully
+1	WORD	unfortunately
+1	WORD	Patsy
+
+# 'do'/'does'
+2	WORD	do
+4	WORD	does
+3	WORD	are
+
+# 'to'
+4	WORD	to
+
+# 'not'
+1	WORD	not
+
+# Verbs (base form).
+4	WORD	have
+3	WORD	speak
+1	WORD	cover
+2	WORD	be
+2	WORD	ride
+1	WORD	drink
+1	WORD	grow
+1	WORD	carry
+1	WORD	suggest
+2	WORD	migrate
+1	WORD	know
+
+# Verbs (past tense).
+1	WORD	had
+1	WORD	spoke
+1	WORD	covered
+2	WORD	was
+1	WORD	were
+1	WORD	rode
+2	WORD	drank
+1	WORD	grew
+2	WORD	carried
+1	WORD	suggested
+1	WORD	migrated
+1	WORD	knew
+
+# Verbs (present participles).
+1	WORD	having
+1	WORD	speaking
+1	WORD	covering
+1	WORD	being
+3	WORD	riding
+1	WORD	drinking
+1	WORD	growing
+1	WORD	carrying
+1	WORD	suggesting
+1	WORD	migrating
+1	WORD	knowing
+
+# Verbs (past participle).
+1	WORD	had
+1	WORD	spoken
+1	WORD	covered
+2	WORD	been
+1	WORD	ridden
+1	WORD	drunk
+1	WORD	grown
+1	WORD	carried
+1	WORD	suggested
+1	WORD	migrated
+1	WORD	known
+
+# More third person singular verbs.
+1	WORD	speaks
+1	WORD	grows
+1	WORD	goes
+1	WORD	migrates
+1	WORD	suggests
+4	WORD	knows
+
+# Verbs (present, plural, third person).
+4	WORD	have
+1	WORD	speak
+1	WORD	cover
+3	WORD	are
+1	WORD	ride
+1	WORD	drink
+1	WORD	grow
+1	WORD	carry
+1	WORD	suggest
+1	WORD	migrate
+1	WORD	know
+
+# Wh-determiners.
+3	WORD	that
+2	WORD	what
+1	WORD	which
+
+# Wh-pronouns.
+2	WORD	what
+2	WORD	who
+
+# Wh possessive pronoun.
+1	WORD	whose
+
+# Wh-adverbs
+1	WORD	how
+1	WORD	when
+1	WORD	where
+1	WORD	why
+
+
+# Possessive marker.
+1	WORD	's

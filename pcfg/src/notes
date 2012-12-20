@@ -1,0 +1,109 @@
+1	S2
+1	S2	_Det
+1	S2	_Misc
+1	S2	_Noun
+1	S2	_Prep
+1	S2	_Proper
+1	S2	_VerbT
+1	_Det	Det
+1	_Det	Det _Det
+1	_Det	Det _Misc
+1	_Det	Det _Noun
+1	_Det	Det _Prep
+1	_Det	Det _Proper
+1	_Det	Det _VerbT
+1	_Misc	Misc
+1	_Misc	Misc _Det
+1	_Misc	Misc _Misc
+1	_Misc	Misc _Noun
+1	_Misc	Misc _Prep
+1	_Misc	Misc _Proper
+1	_Misc	Misc _VerbT
+1	_Noun	Noun
+1	_Noun	Noun _Det
+1	_Noun	Noun _Misc
+1	_Noun	Noun _Noun
+1	_Noun	Noun _Prep
+1	_Noun	Noun _Proper
+1	_Noun	Noun _VerbT
+1	_Prep	Prep
+1	_Prep	Prep _Det
+1	_Prep	Prep _Misc
+1	_Prep	Prep _Noun
+1	_Prep	Prep _Prep
+1	_Prep	Prep _Proper
+1	_Prep	Prep _VerbT
+1	_Proper	Proper
+1	_Proper	Proper _Det
+1	_Proper	Proper _Misc
+1	_Proper	Proper _Noun
+1	_Proper	Proper _Prep
+1	_Proper	Proper _Proper
+1	_Proper	Proper _VerbT
+1	_VerbT	VerbT
+1	_VerbT	VerbT _Det
+1	_VerbT	VerbT _Misc
+1	_VerbT	VerbT _Noun
+1	_VerbT	VerbT _Prep
+1	_VerbT	VerbT _Proper
+1	_VerbT	VerbT _VerbT
+
+
+1	Arthur is the king .	
+1	Arthur rides the horse near the castle .	
+1	riding to Camelot is hard .	
+1	do coconuts speak ?	
+1	what does Arthur ride ?	
+1	who does Arthur suggest she carry ?	
+1	why does England have a king ?	
+1	are they suggesting Arthur ride to Camelot ?	
+1	five strangers are at the Round Table .	
+1	Guinevere might have known .	
+1	Guinevere should be riding with Patsy .	
+1	it is Sir Lancelot who knows Zoot !	
+1	either Arthur knows or Patsy does .	
+1	neither Sir Lancelot nor Guinevere will speak of it .	
+1	the Holy Grail was covered by a yellow fruit .	
+1	Zoot might have been carried by a swallow .	
+1	Arthur rode to Camelot and drank from his chalice .	
+1	they migrate precisely because they know they will grow .	
+1	do not speak !	
+1	Arthur will have been riding for eight nights .	
+1	Arthur , sixty inches , is a tiny king .	
+1	Arthur knows Patsy , the trusty servant .	
+1	Arthur and Guinevere migrate frequently .	
+1	he knows what they are covering with that story .	
+1	Arthur suggested that the castle be carried .	
+1	the king drank to the castle that was his home .	
+1	when the king drinks , Patsy drinks ..	
+
+currently at line 257
+
+
+1	S1	Arthur is the king .	
+1	S1	Arthur rides the horse near the castle .	
+1	S1	riding to Camelot is hard .	
+1	S1	do coconuts speak ?	
+1	S1	what does Arthur ride ?	
+1	S1	who does Arthur suggest she carry ?	
+1	S1	why does England have a king ?	
+1	S1	are they suggesting Arthur ride to Camelot ?	
+1	S1	five strangers are at the Round Table .	
+1	S1	Guinevere might have known .	
+1	S1	Guinevere should be riding with Patsy .	
+1	S1	it is Sir Lancelot who knows Zoot !	
+1	S1	either Arthur knows or Patsy does .	
+1	S1	neither Sir Lancelot nor Guinevere will speak of it .	
+1	S1	the Holy Grail was covered by a yellow fruit .	
+1	S1	Zoot might have been carried by a swallow .	
+1	S1	Arthur rode to Camelot and drank from his chalice .	
+1	S1	they migrate precisely because they know they will grow .	
+1	S1	do not speak !	
+1	S1	Arthur will have been riding for eight nights .	
+1	S1	Arthur , sixty inches , is a tiny king .	
+1	S1	Arthur knows Patsy , the trusty servant .	
+1	S1	Arthur and Guinevere migrate frequently .	
+1	S1	he knows what they are covering with that story .	
+1	S1	Arthur suggested that the castle be carried .	
+1	S1	the king drank to the castle that was his home .	
+1	S1	when the king drinks , Patsy drinks ..
